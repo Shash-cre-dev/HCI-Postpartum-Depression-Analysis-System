@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav1">
+        <div class="heading">
+          <img src="pw.png" alt="" />
+          <span>Parent Wellness Quiz</span>
+        </div>
+        <div class="heading1">
+          <button onclick="feature()">Features</button>
+          <button onclick="About()">About Us</button>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <span>Postpartum Depression Test (New & Expecting Parents)</span>
+    </div>
+    <div class="container">
+      <div class="steps">
+        <span class="circle active">1</span>
+        <span class="circle">2</span>
+        <span class="circle">3</span>
+        <div class="progress-bar">
+          <span class="indicator"></span>
+        </div>
+      </div>
+      <div class="container1">
+        <div id="div1" class="content1 active1">
+          <span
+            >This is a test for depressiom in
+            <strong>new and expecting parents.</strong></span
+          ><br /><br />
+          <span
+            >Please select the answer that comes closest to how you have felt in
+            the <strong>past 7 days</strong> - not <br />
+            just how you feel today. <br /><br />
+            Please note, all fields are required.</span
+          ><br /><br />
+          <div class="ques">
+            <span
+              >1. I have been able to laugh and see the funny side of
+              things</span
+            ><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q1"
+                  value="AS MUCH AS I ALWAYS COULD"
+                  class="optionc"
+                  required
+                />
+                AS MUCH AS I ALWAYS COULD
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q1"
+                  value="NOT QUITE SO MUCH NOW"
+                  class="optionc"
+                  required
+                />
+                NOT QUITE SO MUCH NOW</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q1"
+                  value="DEFINITELY NOT SO MUCH NOW"
+                  class="optionc"
+                  required
+                />
+                DEFINITELY NOT SO MUCH NOW
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q1"
+                  value="NOT AT ALL"
+                  class="optionc"
+                  required
+                />
+                NOT AT ALL</label
+              >
+            </div>
+            <span>2. I have looked forward with enjoyment to things</span><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q2"
+                  value="AS MUCH AS I EVER DID"
+                  class="optionc"
+                />
+                AS MUCH AS I EVER DID
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q2"
+                  value="RATHER LESS THAN I USED TO"
+                  class="optionc"
+                />
+                RATHER LESS THAN I USED TO</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q2"
+                  value="DEFINITELY LESS THAN I USED TO"
+                  class="optionc"
+                />
+                DEFINITELY LESS THAN I USED TO
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q2"
+                  value="HARDLY AT ALL"
+                  class="optionc"
+                />
+                HARDLY AT ALL</label
+              >
+            </div>
+            <span
+              >3. I have blamed myself unnecessarily when things went
+              wrong</span
+            ><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q3"
+                  value="YES, MOST OF THE TIME"
+                  class="optionc"
+                />
+                YES, MOST OF THE TIME
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q3"
+                  value="YES, SOME OF THE TIME"
+                  class="optionc"
+                />
+                YES, SOME OF THE TIME</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q3"
+                  value=" NOT VERY OFTEN"
+                  class="optionc"
+                />
+                NOT VERY OFTEN
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q3"
+                  value="NO, NEVER"
+                  class="optionc"
+                />
+                NO, NEVER</label
+              >
+            </div>
+            <span>4. I have been anxious or worried for no good reason</span
+            ><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q4"
+                  value="NO, NOT AT ALL"
+                  class="optionc"
+                />
+                NO, NOT AT ALL
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q4"
+                  value="HARDLY EVER"
+                  class="optionc"
+                />
+                HARDLY EVER</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q4"
+                  value="YES, SOMETIMES"
+                  class="optionc"
+                />
+                YES, SOMETIMES
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q4"
+                  value="YES, VERY OFTEN"
+                  class="optionc"
+                />
+                YES, VERY OFTEN</label
+              >
+            </div>
+            <span
+              >5. I have felt scared or panicky for no very good reason </span
+            ><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q5"
+                  value="YES, QUITE A LOT"
+                  class="optionc"
+                />
+                YES, QUITE A LOT
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q5"
+                  value="YES, SOMETIMES"
+                  class="optionc"
+                />
+                YES, SOMETIMES</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q5"
+                  value="NO, NOT MUCH"
+                  class="optionc"
+                />
+                NO, NOT MUCH
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q5"
+                  value="NO, NOT AT ALL"
+                  class="optionc"
+                />
+                NO, NOT AT ALL</label
+              >
+            </div>
+            <span>6.Things have been getting on top of me</span><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q6"
+                  value="YES, MOST OF THE TIME I HAVEN'T BEEN ABLE TO COPE AT ALL"
+                  class="optionc"
+                />
+                YES, MOST OF THE TIME I HAVEN'T BEEN ABLE TO COPE AT ALL
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q6"
+                  value="YES, SOMETIMES I HAVEN'T BEEN COPING AS WELL AS USUAL"
+                  class="optionc"
+                />
+                YES, SOMETIMES I HAVEN'T BEEN COPING AS WELL AS USUAL</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q6"
+                  value=" NO,MOST OF THE TIME I HAVE COPED QUITE WELL NO, I HAVE BEEN
+                COPING"
+                  class="optionc"
+                />
+                NO,MOST OF THE TIME I HAVE COPED QUITE WELL NO, I HAVE BEEN
+                COPING
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q6"
+                  value="NO, I HAVE BEEN COPING AS WELL AS EVER"
+                  class="optionc"
+                />
+                NO, I HAVE BEEN COPING AS WELL AS EVER</label
+              >
+            </div>
+            <span
+              >7. I have been so unhappy that I have had difficulty
+              sleeping</span
+            ><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q7"
+                  value="YES, MOST OF THE TIME"
+                  class="optionc"
+                />
+                YES, MOST OF THE TIME
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q7"
+                  value="YES, SOMETIMES"
+                  class="optionc"
+                />
+                YES, SOMETIMES</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q7"
+                  value="NOT VERY OFTEN"
+                  class="optionc"
+                />
+                NOT VERY OFTEN
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q7"
+                  value=" NO, NOT AT ALL"
+                  class="optionc"
+                />
+                NO, NOT AT ALL</label
+              >
+            </div>
+            <span>8.I have felt sad or miserable</span><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q8"
+                  value="YES, MOST OF THE TIME"
+                  class="optionc"
+                />
+                YES, MOST OF THE TIME
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q8"
+                  value="YES, QUITE OFTEN"
+                  class="optionc"
+                />
+                YES, QUITE OFTEN</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q8"
+                  value=" NOT VERY OFTEN"
+                  class="optionc"
+                />
+                NOT VERY OFTEN
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q8"
+                  value="NO, NOT AT ALL"
+                  class="optionc"
+                />
+                NO, NOT AT ALL</label
+              >
+            </div>
+            <span>9. I have been so unhappy that I have been crying</span><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q9"
+                  value="YES, MOST OF THE TIME"
+                  class="optionc"
+                />
+                YES, MOST OF THE TIME
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q9"
+                  value="YES, QUITE OFTEN"
+                  class="optionc"
+                />
+                YES, QUITE OFTEN</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q9"
+                  value="ONLY OCCASIONALLY"
+                  class="optionc"
+                />
+                ONLY OCCASIONALLY
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q9"
+                  value="NO, NEVER"
+                  class="optionc"
+                />
+                NO, NEVER</label
+              >
+            </div>
+            <span>10. The thought of harming myself has occurred to me</span
+            ><br />
+            <div class="options">
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q10"
+                  value="YES, QUITE OFTEN"
+                  class="optionc"
+                />
+                YES, QUITE OFTEN
+              </label>
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q10"
+                  value=" SOMETIMES"
+                  class="optionc"
+                />
+                SOMETIMES</label
+              >
+              <label class="option">
+                <input
+                  type="radio"
+                  name="q10"
+                  value="HARDLY EVER"
+                  class="optionc"
+                />
+                HARDLY EVER
+              </label>
+              <label class="option">
+                <input type="radio" name="q10" value="NEVER" class="optionc" />
+                NEVER</label
+              >
+            </div>
+          </div>
+        </div>
+        <div id="div2" class="content1">
+          <span
+            >Please take a moment to answer the following
+            <strong>optional</strong> questions. Your answers are <br />
+            totally anonymous—we won't be able to identify you based on this
+            information. Your <br />
+            answers help us provide better information and support for people
+            like you. <br /><br />
+            You can answer as many or as few questions as you would like. When
+            you are done, scroll up <br />
+
+            to the top of the survey and click "next" to receive your screening
+            results.</span
+          >
+          <hr />
+          <span class="quess1"
+            >Are you taking this test for yourself or for someone else?</span
+          ><br /><br />
+          <label class="option">
+            <input type="radio" name="q11" value="Yes" class="optionc" />
+            Yes</label
+          >
+          <label class="option">
+            <input type="radio" name="q11" value="No" class="optionc" />
+            No</label
+          ><br />
+          <br />
+          <br />
+          <span class="info"
+            >If you are taking this test for someone else, please use that
+            person's information for the questions below,<br />
+            or leave them blank if you don't know the answer. Remember, these
+            questions are optional.
+          </span>
+          <br /><br />
+          <h2>About You</h2>
+          <span>Age:</span><br />
+          <input type="text" name="age" id="" /><br /><br />
+          <span>Gender:</span><br />
+          <label><input type="radio" name="" value="Male" id="" />Male </label
+          ><br />
+          <label
+            ><input type="radio" name="" value="Female" id="" />Female</label
+          >
+        </div>
+        <div id="div3" class="content1">
+          <div class="container3">
+            <h2>Your Score is:</h2>
+            <div class="circular-progress">
+              <span class="progress-value"></span>
+            </div>
+            <span id="text"></span>
+            <h3 id="result"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="prev" disabled onclick="changeDiv(-1)">Prev</button>
+      <button id="next">Next</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
